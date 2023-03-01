@@ -57,7 +57,7 @@ p {
 .card {
   background-color: var(--white);
   box-shadow: 3px 5px 16px 0px rgba(0, 0, 0, 0.29);
-  transition: var(--transition);
+  /* transition: var(--transition); */
 }
 .card:hover {
   box-shadow: 5px 8px 23px 0px rgba(0, 0, 0, 0.25);
@@ -145,7 +145,7 @@ Lower  card
   width: 100%;
   background-color: var(--dark-gray-blue);
   color: var(--white);
-  padding: 1rem 7.5rem;
+  padding: 1rem 0;
   cursor: pointer;
 
   font-weight: 700;
