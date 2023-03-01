@@ -13,34 +13,103 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- normalize css -->
   <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/main.css">
   <title>Results summary component</title>
 
 </head>
 
 <body>
+  <main class="main">
+    <card class="card">
+      <div class="result">
+        <h4 class="result-header">Your Result</h4>
+        <div class="numbers-container">
+          <span class="big-num">76</span>
+          <span class="small-num">of 100</span>
+        </div>
+        <div class="result-info">
+          <h3 class="result-info-header">Great</h3>
+          <p class="result-info-text"> You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+      <div class="summary">
+        <h4 class="summary-header">Summary</h4>
+        <div class="skills-container">
+          <!-- single skill -->
+          <div class="summary-skill reaction-skill">
+            <div class="skill-container">
+              <i class="skill-icon"><img class="img" src="./assets/images/icon-reaction.svg" alt=""></i>
+              <span class="skill-name">Reaction</span>
+            </div>
+            <div class="skill-scale-container">
+              <span class="skill-scale">80</span>
+              / 100
+            </div>
+          </div>
+          <!-- end of single skill -->
+          <!-- single skill -->
+          <div class="summary-skill memory-skill">
+            <div class="skill-container">
+              <i class="skill-icon"><img class="img" src="./assets/images/icon-memory.svg" alt=""></i>
+              <span class="skill-name">Memory</span>
+            </div>
+            <div class="skill-scale-container">
+              <span class="skill-scale">92</span>
+              / 100
+            </div>
+          </div>
+          <!-- end of single skill -->
+          <!-- single skill -->
+          <div class="summary-skill verbal-skill">
+            <div class="skill-container">
+              <i class="skill-icon"><img class="img" src="./assets/images/icon-verbal.svg" alt=""></i>
+              <span class="skill-name">Verbal</span>
+            </div>
+            <div class="skill-scale-container">
+              <span class="skill-scale">61</span>
+              / 100
+            </div>
+          </div>
+          <!-- end of single skill -->
+          <!-- single skill -->
+          <div class="summary-skill visual-skill">
+            <div class="skill-container">
+              <i class="skill-icon"><img class="img" src="./assets/images/icon-visual.svg" alt=""></i>
+              <span class="skill-name">Visual</span>
+            </div>
+            <div class="skill-scale-container">
+              <span class="skill-scale">73</span>
+              / 100
+            </div>
+          </div>
+          <!-- end of single skill -->
+        </div>
+        <button type="button" class="btn-summary">Continue</button>
+      </div>
+    </card>
+  </main>
 
-  Your Result
-  76
-  of 100
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
 
-  Summary
 
-  Reaction
-  80 / 100
 
-  Memory
+
+
+
+
+
+
+  <!-- Memory
   92 / 100
 
   Verbal
   61 / 100
 
   Visual
-  72 / 100
+  72 / 100 -->
 
-  Continue
+
 
 </body>
 
