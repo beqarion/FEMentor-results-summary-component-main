@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://github.com/beqarion/results-summary-component-main)
-- [Live Site](https://beqarion.github.io/results-summary-component-main/)
+- [Solution](https://github.com/beqarion/FEMentor-results-summary-component-main)
+- [Live Site](https://beqarion.github.io/FEMentor-results-summary-component-main/)
 
 ## My process
 
